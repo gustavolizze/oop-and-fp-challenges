@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		/* Compiler Options */
+		"lib": ["es2020"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es2020",
+		"declaration": true,
+		"sourceMap": true,
+		"removeComments": true,
+		"importHelpers": false,
+		"preserveConstEnums": true,
+
+		/* Strict Type-Checking Options */
+		"strict": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"alwaysStrict": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		/* Additional Checks */
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+
+		/* Module Resolution Options */
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
+	},
+	"exclude": ["node_modules", "build", "**/*.test.ts"]
+}
