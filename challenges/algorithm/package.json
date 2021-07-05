@@ -2,18 +2,15 @@
 	"name": "@sbf-challenges/algorithm",
 	"version": "1.0.0",
 	"description": "",
+	"engines": {
+		"node": ">=14.x"
+	},
 	"scripts": {
 		"prebuild": "rimraf build",
 		"build": "tsc",
 		"postbuild": "cpy '**/*' '!**/*.ts' ../build/ --cwd=src/ --no-overwrite --parents",
-		"prestart": "npm run build",
-		"start": "NODE_PATH=./build node build/bootstrap",
-		"start:watch": "NODE_PATH=./src ts-node-dev --respawn --transpile-only --pretty src/bootstrap",
-		"debug": "NODE_PATH=./src ts-node-dev --inspect --respawn --transpile-only --pretty src/bootstrap",
-		"test": "jest --watch",
-		"format:staged": "pretty-quick --staged",
-		"lint:staged": "lint-staged",
-		"commit": "npm run lint:staged && npm run format:staged"
+		"start": "NODE_PATH=./src ts-node-dev --respawn --transpile-only --pretty src/main",
+		"test": "jest --watch"
 	},
 	"author": "gustavolizze",
 	"license": "ISC",
