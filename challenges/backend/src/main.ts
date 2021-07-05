@@ -8,6 +8,4 @@ export function main(): void {
 	sourceMapSupport.install({
 		environment: 'node',
 	});
-
-	console.log('Hello Word!');
 }

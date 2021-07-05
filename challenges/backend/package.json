@@ -2,6 +2,9 @@
 	"name": "@sbf-challenges/backend",
 	"version": "1.0.0",
 	"description": "",
+	"engines": {
+		"node": ">=14.x"
+	},
 	"scripts": {
 		"prebuild": "rimraf build",
 		"build": "tsc",
