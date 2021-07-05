@@ -16,3 +16,7 @@
 ### Instalação:
 
 - Rodar `npm i`
+
+### Rest Tutorial
+
+`GET` em `http://localhost:8080/`
