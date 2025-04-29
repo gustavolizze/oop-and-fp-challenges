@@ -1,20 +1,18 @@
-## Challenge Backend
+## Challenge Algorithm
 
-### Arquitetura
+### Architecture
 
-Nesse projeto propus algo mais funcional, com técnicas e padrões funcionais
+In this project, I proposed a more **functional approach**, using functional techniques and patterns.
 
-- Conteudo de desenvolvimento pasta: `src`
-- Utils: `Pasta que contém objetos compartilhados`
-- Functions: `Funções (estrutura modular) onde cada pasta contém o que a função compõe`
-- Use-Cases `Pasta que contém os casos de uso de minha api`
+- **Development folder**: `src`
+- **Utils**: Contains shared utilities
+- **Functions**: Modular structure where each folder contains the components of a function
+- **Use-Cases**: Contains the use cases of the algorithm
 
-### Comandos:
+### Commands
 
-- `npm run buld`: Buildar typescript
-- `npm start`: Inicia o algoritimo, inputs estão dentro do `main.ts arquivo`
-- `npm run test`: Testes unitários
+- `npm run build`: Build the TypeScript code  
+- `npm start`: Run the algorithm (inputs are defined inside the `main.ts` file)  
+- `npm run test`: Run unit tests
 
-### Instalação:
-
-- Rodar `npm i`
+### Installation
