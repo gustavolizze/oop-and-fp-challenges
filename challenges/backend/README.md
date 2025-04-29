@@ -1,22 +1,26 @@
 ## Challenge Backend
 
-### Arquitetura
+### Architecture
+Development content folder: src
 
-- Conteudo de desenvolvimento pasta: `src`
-- Domain: `Pasta que contém objetos de dominio e regras`
-- Infra: `Pasta que contém módulos de infra estrutura como a configuração do banco in memory`
-- Use-Cases `Pasta que contém os casos de uso de minha api`
+ - Domain: Contains domain objects and business rules
 
-### Comandos:
+ - Infra: Contains infrastructure modules, such as the in-memory database configuration
 
-- `npm run buld`: Buildar typescript
-- `npm start`: Inicia a API
-- `npm run test`: Testes unitários
+ - Use-Cases: Contains the use cases for the API
 
-### Instalação:
+### Commands
 
-- Rodar `npm i`
+```npm run build```: Build the TypeScript code
 
-### Rest Tutorial
+```npm start```: Start the API```
 
-`GET` em `http://localhost:8080/`
+```npm run test```: Run unit tests
+
+### Installation
+
+Run: ```npm i```
+
+### REST Tutorial
+
+Make a GET request to: ```http://localhost:8080/```
