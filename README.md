@@ -1,9 +1,10 @@
-## SBF Challenges
+## OOP and FP Challenges
 
-Monorepositório com os 2 challenges propostos, o readme de cada projeto com as instruções para rodar, build se encontra na raiz do mesmo.
+Monorepository containing both proposed challenges. Each project's README includes instructions on how to run it, and the build can be found at the root of each one.
 
-sendo o `challenges algorithm` com uma proposta mais funcional e `challenges - backend` mais orientado objetos.
+The challenges-algorithm has a more functional programming approach, while the challenges-backend follows a more object-oriented design.
 
-## Instalação
+Installation
+Run: npm run bootstrap (Installs dependencies for all projects)
 
-Rodar: `npm run bootstrap` (Instala a dependencia de todos os projetos)
+
