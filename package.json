@@ -1,5 +1,5 @@
 {
-	"name": "sbf-challenge",
+	"name": "oop-and-fp-challenges",
 	"private": true,
 	"scripts": {
 		"bootstrap": "npm i && lerna clean && lerna bootstrap --ignore-scripts"
